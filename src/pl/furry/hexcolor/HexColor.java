@@ -7,7 +7,7 @@ public class HexColor extends JavaPlugin {
 
     public void onEnable() {
         Bukkit.getLogger().info("");
-        Bukkit.getLogger().info("HexColors - Uruchomiono");
+        Bukkit.getLogger().info("HexColors - started");
         Bukkit.getLogger().info("");
     }
 
@@ -15,5 +15,4 @@ public class HexColor extends JavaPlugin {
         return text.replaceAll("&#", "§#");
     }
 
-    //Gradient mozna zobic na stronie https://rgb.birdflop.com
 }
